@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+
+* {
+    text-align: center;
+    font-family: 'Oleo Script', cursive;
+    color: midnightblue;
+}
+
+body {
+    background-image: url("https://www.freevector.com/uploads/vector/preview/18914/32-01.jpg");
+    background-size: cover;
+}
+
+h1 {
+    color: darkorchid;
+    font-weight: 700;
+    font-size: 4em;
+}
+
+#app {
+    display: flex;
+}
+
+#sidebar {
+    width: 30vw;
+}
+
+li {
+    list-style: none;
+    width: 100%;
+}
+
+li:hover {
+    cursor: pointer;
+    color: pink;
+}
+
+#main {
+    padding: 0, 10%;
+    width: 70vw;
+}
+
+img {
+    height: 50vh;
+    margin: 0 auto;
+    border-radius: 5%;
+}
