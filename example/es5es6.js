@@ -26,6 +26,24 @@ var beti = new Person({
 })
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ES6 class syntax (syntactic sugar)
 // (not actual class inheritance)
 
