@@ -12,9 +12,9 @@ function getAllQueens(){
 
 function addQueensToSidebar(queens){
     const queenIndex = document.getElementById("queen-index")
-    queens.forEach(queen => {
-        console.log(queen)
-        queenIndex.innerHTML += `<li class="queen-li" data-id="${queen.id}">${queen.name}</li>`
+    queens.forEach(queenData => {
+        let queen = new Queen(queenData)
+        queenIndex.innerHTML += queen.linkHTML()
     })
 }
  
